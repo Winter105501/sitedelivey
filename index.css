@@ -1,0 +1,182 @@
+body{
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Inicio dos id's */
+
+
+#Base{
+    height: 242vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Barra{
+    height: 27vh;
+    position: relative;
+    background-color: #D9D9D9;
+}
+
+#Div_logo{
+position: absolute;
+left: 429px;
+top: -45px;
+}
+
+#Saida{
+position: relative;
+left: 150px;
+top: 45px;
+}
+
+#ul_saida{
+position: absolute;
+list-style: none;
+display: flex;
+height: 100px;
+width: 150px;
+}
+
+#li_saida_seta{
+position: absolute;
+left: 18px;
+top: 16px;
+}
+
+#li_saida_texto{
+    position: absolute;
+
+}
+
+    /* Inicio do controle de erros (Barra) */
+
+    #h1_texto_barra{
+        font-size: 20px;
+
+
+    }
+
+    /* Fim do controle de erros (Barra) */
+
+/* Fim da barra */
+
+
+/* Inicio do login */
+
+#Base_login{
+height: 190vh;
+background-color:black;
+display: flex;
+align-items: center;
+}
+
+#Div_imagem{
+width: 730px;
+}
+
+#Login{
+color: white;
+font-size: 25px;
+width: 500px;
+}
+
+#Acesso{
+    position: relative;
+margin-left: 3px;
+}
+
+
+
+    /* Inicio da area de pesonalização e controle dos elementos (Login) */
+
+    #Input_email{
+    border-radius: 15px;
+    height: 48px;
+    width: 483px;
+    }
+
+    #Input_senha{
+        border-radius: 15px;
+        height: 48px;
+        width: 483px;
+
+    }
+    
+
+    #A_senha{
+        color: white;
+    position: absolute;
+    left: 265px;
+    top: 285px;
+    }
+
+    #botao_acesso{
+    width: 488px;
+    height: 48px;
+    border-radius: 15px;
+    border: none;
+    background-color: #8C8C8C;
+    }
+
+    #botao_entrar_G{
+        width: 488px;
+        height: 48px;
+        border-radius: 15px;
+        border: none;
+    }
+    
+
+    #botao_apple{
+        width: 488px;
+        height: 48px;
+        border-radius: 15px;
+        border: none;
+    }
+
+    #Texto_conta01{
+    position: absolute;
+    left: 154px;
+    top: 420px;
+    }
+
+    #Texto_cadastro{
+    margin-left: 35px;
+    }
+
+    #A_cadastros{
+        position: absolute;
+        color: white;
+        left: 280px;
+        top: 664px;
+    }
+
+    #Google_imagem{
+        position: absolute;
+    top: 528px;
+    left: 155px;
+    }
+
+    #Apple_imagem{
+    position: absolute;
+    top:593px;
+    left: 110px;
+    }
+
+
+
+/* Fim do login */
+
+
+/* Inicio do roda pe */
+#Div_roda_pe{
+    text-align: center;
+    background-color: #D9D9D9;
+    height: 23vh;
+    gap: -15px;
+    }
+    
+
+
+/* Fim do roda pe */

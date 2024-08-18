@@ -1,0 +1,461 @@
+body{
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+    /* Inicio dos id's */
+
+#Base{
+background-color: black;
+height: 380vh;
+
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Inicio da barra */
+
+#Barra{
+height: 22vh;
+
+position: relative;
+background-color: #D9D9D9;
+}
+
+
+#Div_logo{
+height: 140px;
+width: 300px;
+position: absolute;
+bottom: 30px;
+}
+
+
+#Topicos{
+    height: 22vh;
+    font-size: 25px;
+    
+}
+
+#Topicos_itens{
+width: 400px;
+height: 50px;
+position: absolute;
+left: 400px;
+top: 35px;
+}
+
+
+#Topicos_lista{
+list-style: none;
+display: flex;
+position: relative;
+}
+
+#Topicos_inicio{
+position: absolute;
+}
+
+#Topicos_cardapio{
+position: absolute;
+left: 148px;
+}
+
+#Topicos_pedidos{
+position: absolute;
+left: 280px;
+}
+
+#Cadastro{
+    font-size: 25px;
+   
+}
+
+#Cadastro_itens{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 900px;
+    top: 35px;
+}
+
+#Cadastro_lista{
+    list-style: none;
+    display: flex;
+    position: relative;
+    
+}
+
+#Cadastro_entrar{
+position: absolute;
+top: -3px;
+}
+
+#Cadastro_criar{
+position: absolute;
+left: 150px;
+top: -8px;
+}
+
+#Cadastro_botao{
+border-radius: 20px;
+height: 40px;
+width: 130px;
+background-color: black;
+color: white;
+border: none;
+}
+
+/* Fim da barra */
+
+/* Inicio da imagem de fundo */
+
+#Imagem_fundo{
+height: 75vh;
+
+background-image:url(Rectangle\ 5.png) ;
+background-size: cover;
+position: relative;
+}
+
+
+#Texto_imagem{
+color: white;
+font-size: 45px;
+position: absolute;
+left: 145px;
+top: 120px;
+
+}
+
+/* Fim da imagem de fundo */
+
+/* Inicio dos produtos */
+
+#Base_produtos{
+
+background-color: black;
+height: 251vh;
+
+}
+
+
+#um{
+    height: 50px;
+    grid-area: um;
+    
+}
+#dois{
+    height: 50px;
+    grid-area: dois;
+    
+}
+
+#tres{
+    height: 180px;
+    grid-area: tres;
+   
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#quatro{
+    height: 180px;
+    grid-area: quatro;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#cinco{
+    height: 180px;
+    grid-area: cinco;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#seis{
+    height: 50px;
+    grid-area: seis;
+    
+    
+    
+}
+#sete{
+    height: 180px;
+    grid-area: sete;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#oito{
+    height: 180px;
+    grid-area: oito;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+
+#nove{
+    height: 180px;
+    grid-area: nove;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+
+#dez{
+    height: 50px;
+    grid-area: dez;
+    
+    
+}
+#onze{
+    height: 180px;
+    grid-area: onze;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#doze{
+    height: 180px;
+    grid-area: doze;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#treze{
+    height: 180px;
+    grid-area: treze;
+   
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#quatorze{
+    height: 50px;
+    grid-area: quatorze;
+    
+    
+}
+#quinze{
+    height: 180px;
+    grid-area: quinze;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#dezesseis{
+    height: 180px;
+    grid-area: dezesseis;
+   
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#dezessete{
+    height: 180px;
+    grid-area: dezessete;
+    
+    border-radius: 35px;
+    background-color: #D9D9D9;
+}
+#dezoito{
+    height: 50px;
+    grid-area: dezoito;
+    
+    
+}
+
+#Div_roda_pe{
+text-align: center;
+background-color: #D9D9D9;
+height: 23vh;
+gap: -15px;
+}
+
+
+/* Area de controle sobre UL e LI (Produtos) */
+
+#Div_topico_universal{
+
+
+}
+
+#ul_topico_universal{
+list-style: none;
+display: flex;
+position: relative;
+font-size: 21px;
+}
+
+#li_topico_universal{
+position: absolute;
+bottom: -15px;
+color: white;
+}
+
+#li_vertodos_universal{
+position: absolute;
+left: 750px;
+bottom: -15px;
+}
+
+#Vertodos_universal{
+color: white;
+}
+
+#Div_produtos_universal{
+
+
+}
+
+#ul_produtos_universal{
+
+position: relative;
+list-style: none;
+}
+
+#li_produtos_universal_nome{
+font-size: 18px;
+position: absolute;
+top: 1px;
+left: 20px;
+}
+
+#li_produtos_universal_partir{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+#li_produtos_universal_preco{
+    font-size: 20px;
+    position: absolute;
+    top: 68px;
+    left: 20px;
+
+}
+
+#li_produtos_universal_imagem{
+    position: absolute;
+    top: -20px;
+    left: 89px;
+}
+
+#li_produtos_universal_barra{
+    position: absolute;
+    top: 89px;
+    left: -1px;
+}
+
+#li_produtos_universal_botao{
+    position: absolute;
+    top: 113px;
+    left: 105px;
+}
+
+#li_botao_personalizar{
+border-radius: 25px;
+border: solid 2px;
+width: 140px;
+height: 45px;
+color: black;
+background-color: #D9D9D9;
+
+}
+
+    /* Inicio da parte de erros*/
+
+    #li_produtos_universal_imagempP1{
+        position: absolute;
+        bottom: -162px;
+        left: 100px;
+
+    }
+
+    #li_produtos_universal_imagemP2{
+        position: absolute;
+        top: -15px;
+        left: 120px;
+
+    }
+
+    #li_produtos_universal_imagemP3{
+        position: absolute;
+        top: -15px;
+        left: 120px;
+
+    }
+
+    #li_produtos_universal_imagemP4{
+        position: absolute;
+        top: -13px;
+        left: 120px;
+
+    }
+
+    #li_produtos_universal_imagemP5{
+        position: absolute;
+        top: -13px;
+        left: 112px;
+
+    }
+
+    #li_produtos_universal_imagemP6{
+        position: absolute;
+        top: -13px;
+        left: 125px;
+
+    }
+
+    #li_produtos_universal_imagemP7{
+        position: absolute;
+        top: -13px;
+        left: 125px;
+
+    }
+
+    #li_produtos_universal_imagemP8{
+        position: absolute;
+        top: -19px;
+        left: 140px;
+
+    }
+
+    #li_produtos_universal_imagemP9{
+        position: absolute;
+        top: -5px;
+        left: 140px;
+
+    }
+
+    #li_produtos_universal_imagemP10{
+        position: absolute;
+        top: -18px;
+        left: 140px;
+    }
+
+/* Fim da area de controle */
+
+
+
+
+/* Inicio das classes */
+
+
+    /* Inicio dos produtos */
+
+.Grid_produtos{
+border: solid;
+height: 250vh;
+gap: 20px;
+margin-top: 60px;
+display: grid;
+grid-template-areas: 
+'um dois dois dois dezoito'
+'um tres quatro cinco dezoito'
+'um seis seis seis dezoito'
+'um sete oito nove dezoito'
+'um dez dez dez dezoito'
+'um onze doze treze dezoito'
+'um quatorze quatorze quatorze dezoito'
+'um quinze dezesseis dezessete dezoito';
+}
